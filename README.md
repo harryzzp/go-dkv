@@ -5,7 +5,7 @@ Features:
 - Support create a database in a samba directory
 - Support Multi-process, Multi-thread
 
-`go get github.com/zeropool/go-dkv`
+`go get github.com/botvs/go-dkv`
 
 ```go
 package main
@@ -13,7 +13,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zeropool/go-dkv"
+	"github.com/botvs/go-dkv"
 )
 
 type T struct {
